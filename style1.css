@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(224, 86, 86),
+    rgb(212, 199, 102)
+  );
+}
+
+.welcome {
+  background-color: #ffe066;
+  height: 200px;
+  border-radius: 500px;
+  margin: 30px;
+}
+
+.welcome-msg {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(222, 67, 67),
+    0 0 5px rgb(195, 46, 71);
+  padding: 60px;
+}
+
+.rules {
+  width: 700px;
+  height: 300px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 10px;
+  background-color: #bac8ff;
+  color: white;
+  margin-left: 20px;
+}
+
+.rule-box {
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+.rule-msg {
+  margin-bottom: 15px;
+}
+
+.log {
+  width: 350px;
+  height: 200px;
+  background-color: #dbe4ff;
+  padding: 20px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: -160px;
+}
+
+.name-msg {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+  margin-bottom: 15px;
+  margin-top: 40px;
+  color: black;
+}
+
+.name-input {
+  width: 200px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.play-button {
+  width: 80px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #dbe4ff;
+}
+
+.entry {
+  display: grid;
+  grid-template-rows: 20px 20px;
+}
+
+form {
+  margin-left: 250px;
+  margin-top: -2px;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 800px 700px;
+  margin-left: 110px;
+}
